@@ -1,0 +1,18 @@
+p{
+    background-color: brown;
+    color: white;
+    border: 1px solid blue;
+}
+h1{
+    border: 2px double red;
+    background-color: black;
+    color: green;
+}
+b{
+    background-color: aqua;
+    color: white;
+    border: 1px dotted orange;
+}
+div{
+    background-color: blueviolet;
+}
