@@ -77,7 +77,27 @@
  [target="blank"]{
     background-color: black;
  }
- 
+ .dropdown-container:hover .dropdown-content{
+    display: block;
+
+ }
+ .dropdown-btn{
+    background-color:blue;
+    color: white;
+    padding: 3px;
+ }
+ .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+ }
+ .dropdown-content a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 16px;
+ }
     
 </style>
 </head>
@@ -88,17 +108,16 @@
             
                 <img src=" https://thumbs.dreamstime.com/z/lap-top-brands-logos-25035301.jpg?w=576 ">
                  </div>
-        <div>
-            <label for="p1">PRODUCT</label>
-            <select id="p1">
-                <option>i3 laptops</option>
-                <option>i5 laptop</option>
-                <optgroup label="computer">
-                    <option>i3</option>
-                    <option>i5</option>
-                </optgroup>
-                
-            </select>
+        
+            <div class="dropdown-container">
+                <div class="dropdown-btn">PRODUCT</div>
+                <div class="dropdown-content">
+                    <a href="">i3 laptop</a>
+                    <a href ="">i3 computer</a>
+                    <a href="">i5 laptop</a>
+                    <a href="">i5 computer</a>
+                </div>
+            
         </div>
         <div>
     ABOUT AS
@@ -110,7 +129,7 @@
            </header>
            <contain>
     <section class="s1">
-        <div>
+       <div>
             <img src="https://img.favpng.com/7/20/7/laptop-intel-hewlett-packard-enterprise-lenovo-thinkpad-png-favpng-82S4db69pvE4XpuZe0HFLq8r4_t.jpg" alt="" >
         </div>
         <div>
